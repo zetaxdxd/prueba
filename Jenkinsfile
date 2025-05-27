@@ -11,7 +11,7 @@ pipeline {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
                     // Especifica la rama master explícitamente para mayor claridad.
-                    git branch: 'main', url: 'https://github.com/zetaxdxd/demo-crud-repaso.git'
+                    git branch: 'main', url: 'https://github.com/zetaxdxd/prueba.git'
                 }
             }
         }
